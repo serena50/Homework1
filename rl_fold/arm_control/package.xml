@@ -2,7 +2,7 @@
   <name>arm_control</name>
   <version>0.0.0</version>
   <description>Control package for the robot arm</description>
-  <maintainer email="lorenzopalma009@gmail.com">pixel-0-1</maintainer>
+  <maintainer email="serenacatapano50@gmail.com">serena50</maintainer>
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
