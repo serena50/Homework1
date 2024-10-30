@@ -1,0 +1,35 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+    use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    position_controllers:
+      type: joint_position_controller/JointPositionController
+
+joint_state_broadcaster:
+  ros__parameters:
+    joints:
+      - j0
+      - j1
+      - j2
+      - j3
+
+position_controllers:
+  ros__parameters:
+    joints:
+      - j0
+      - j1
+      - j2
+      - j3
+    
+    j0:
+      pid: {p: 100.0, i: 10.01, d: 1.0}
+    j1:
+      pid: {p: 100.0, i: 10.01, d: 1.0}
+    j2:
+      pid: {p: 100.0, i: 10.01, d: 1.0}
+    j3:
+      pid: {p: 100.0, i: 10.01, d: 1.0}
