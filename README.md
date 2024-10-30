@@ -2,7 +2,7 @@
 
 - Clone the repo:
 
-$ git clone https://github.com/serena50/Homework1
+$ git clone https://github.com/serena50/Homework1.git
 
 
 - Build the new package:
