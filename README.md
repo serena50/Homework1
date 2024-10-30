@@ -44,10 +44,10 @@ $ ros2 run rqt_image_view  rqt_image_view
 
 - force the robot to reach a position with:
 
-$ ros2 topic pub --once /position_controller/commands std_msgs/msg/Float64MultiArray "data: [<jo>,<j1>,<j2>,<j3>]"
+$ ros2 topic pub --once /position_controller/commands std_msgs/msg/Float64MultiArray "data: [jo,j1,j2,j3]"
 
-with <jo> that can be between [-2.57,2.57]
-while <j1>,<j2>,<j3> between [3.14,3.14]
+with jo that can be between [-2.57,2.57]
+while j1,j2,j3 between [3.14,3.14]
 
 
 - To use the optional version, rename the file arm.urdf.opzionale.xacro as "arm.urdf.xacro", and remove the other one
